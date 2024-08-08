@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 400px;
+    height: 550px;
+    box-sizing: border-box;
+    border: 5px solid #333;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.breakfast {
+    background-image: url('breakfast-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.lunch {
+    background-image: url('lunch-bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.dinner {
+    background-image: url('dinner-bg.jpg');
+    background-repeat: no-repeat;
+}
